@@ -18,10 +18,10 @@ This app (written in java) get the input of heigh in meters and weight in kilogr
  - 7 - Wrestler Data - Retrieves data from a csv(Wrestler.csv) file and displays their information
  - 8 - YouTube Video Downloader - Download video clips from YouTube. To be able to run this program it is required to have Pytube installed.
  
-4 - Guessing Game - First version - Allows user to guess a number and it gives feedback, second version - the computer guesses a number and you provide feedback.
-5 - Leap Year - Written in Java, this app year input and it return if it is a leap year or not.
-6 - Movie Guess Game - Written in Python, this app uses Object Oriented Programming to display the options and get the input and it returns the users score
-7 - Python Applications:
+- 4 - Guessing Game - First version - Allows user to guess a number and it gives feedback, second version - the computer guesses a number and you provide feedback.
+- 5 - Leap Year - Written in Java, this app year input and it return if it is a leap year or not.
+- 6 - Movie Guess Game - Written in Python, this app uses Object Oriented Programming to display the options and get the input and it returns the users score
+- 7 - Python Applications:
  - 1 - Binary Search Algorithm - This app searches for a given number and looks trough it in a array and it returns its index. 
  - 2 - Buying a House - Takes some inputs from the user and it return the year left until buying a house
  - 3 - CSV Retreating Data - Reads some CSV files and return information contained in it
