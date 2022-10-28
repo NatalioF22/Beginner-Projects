@@ -11,12 +11,14 @@ This app (written in java) get the input of heigh in meters and weight in kilogr
 3 - Graphical User Interface - this an folder that contains some GUI application. (All the applications are written in Python) To run the following apps it is required to be installed Tkinter library and an IDE that supports Python.
  - 1 - Age calculator - used Tkinter library to build this app, it takes month, day and year and it displays your age accordingly.
  - 2 - Body Mass Index - calculates the BMI
- - 3 - Fibonacci - Displays the Fibonacci sequence
- - 4 - Leap Year - Determines if the year inputted is leap or not
- - 5 - Password Saver - Saves website, the username and the password inputted into a MYSQL database, allows user to get the data, delete and update them
- - 6 - Random Password Generator - Return a random password that contains string, digits and numbers
- - 7 - Wrestler Data - Retrieves data from a csv(Wrestler.csv) file and displays their information
- - 8 - YouTube Video Downloader - Download video clips from YouTube. To be able to run this program it is required to have Pytube installed.
+ - 3 - Digital Clock - Displays the current date and time, Contains functions such as countdown, stopwatch and alarm
+ - 4 - Fibonacci - Displays the Fibonacci sequence
+ - 5 - Leap Year - Determines if the year inputted is leap or not
+ - 6 - Password Saver - Saves website, the username and the password inputted into a MYSQL database, allows user to get the data, delete and update them
+ - 7 - Random Password Generator - Return a random password that contains string, digits and numbers
+ - 8 - To do List - adds, deletes, crosses, uncrosses data into the tkinter box, it also saves and open files in your machine directory.
+ - 9 - Wrestler Data - Retrieves data from a csv(Wrestler.csv) file and displays their information
+ - 10 YouTube Video Downloader - Download video clips from YouTube. To be able to run this program it is required to have Pytube installed.
  
 - 4 - Guessing Game - First version - Allows user to guess a number and it gives feedback, second version - the computer guesses a number and you provide feedback.
 - 5 - Leap Year - Written in Java, this app year input and it return if it is a leap year or not.
