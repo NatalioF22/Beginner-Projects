@@ -1,12 +1,14 @@
+from cmath import exp
 import pickle
 from tkinter import *
+from tkinter import messagebox
 from tkinter.font import Font
 from tkinter import filedialog
 
 #Create a tkinter window
 app = Tk()
 app.title("To Do Application")
-icon = PhotoImage(file = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freeiconspng.com%2Fimages%2Ftasks-icon&psig=AOvVaw3w9WimVc8WASCxhIYm0676&ust=1667007221861000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMjAwfzjgfsCFQAAAAAdAAAAABAI")
+icon = PhotoImage(file = "C:/Users/natal/Desktop/Projects/To Do List/tasks.png")
 app.iconphoto(False,icon)
 app.geometry("800x500")
 app.maxsize(1000,500)
@@ -102,19 +104,25 @@ def add_item():
     my_list.insert(END, my_entry.get())
     my_entry.delete(0,END)
 def cross_item():
+    try:
     #Cross off item
-    my_list.itemconfig(
-        my_list.curselection(),
-        fg="#dedede")
-        #Get rid of selection bar
-    my_list.select_clear(0,END)
+        my_list.itemconfig(
+            my_list.curselection(),
+            fg="#dedede")
+            #Get rid of selection bar
+        my_list.select_clear(0,END)
+    except TclError:
+        messagebox.showerror("Empty Selection","Must select an item in order to cross them")
 def uncross_item():
-    #Cross off item
-    my_list.itemconfig(
-        my_list.curselection(),
-        fg="#464646")
-        #Get rid of selection bar
-    my_list.select_clear(0,END)
+    try:
+        #Cross off item
+        my_list.itemconfig(
+            my_list.curselection(),
+            fg="#464646")
+            #Get rid of selection bar
+        my_list.select_clear(0,END)
+    except TclError:
+        messagebox.showerror("Empty Selection","Must select a cross item in order to uncross them")
 
 def delete_crossed():
     count = 0
