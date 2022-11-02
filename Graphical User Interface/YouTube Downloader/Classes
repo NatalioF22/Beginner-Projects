@@ -6,7 +6,7 @@ class Functions:
     def __init__(self,master):
         master.title("YouTube Downloader")
         master.geometry("850x600")
-        icon = PhotoImage(file = "image.png")
+        icon = PhotoImage(file = "https://cdn-icons-png.flaticon.com/512/724/724933.png")
         master.iconphoto(False,icon)
         master.minsize(850,600)
         master.maxsize(850,600)
