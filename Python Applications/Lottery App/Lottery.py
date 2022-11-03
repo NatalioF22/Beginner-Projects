@@ -25,7 +25,17 @@ class Lottery:
         for i,j in zip(nums,guesses):
             if (i==j):
                 self.score+=1
-
+    def set_prize(self):
+        if self.score == 4:
+            return "You win the first prize"
+        if self.score == 3:
+            return "You win the second prize"
+        if self.score == 2:
+            return "You win the third prize"
+        if self.score == 1:
+            return "You win the fourth prize"
+        if self.score == 0:
+            return "Best luck next time"
 
 
 
